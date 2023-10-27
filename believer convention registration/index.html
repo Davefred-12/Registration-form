@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="./saints.jpg" alt="saints logo" />
+
+        <h1 class="header-text">Believers Convention Access Registration</h1>
+
+        <p class="header-first-para">IMPORTANT INFORMATION</p>
+
+        
+                    
+        <p class="header-second-para">Registration for Believers Convention 2023 is compulsory. Register to obtain a <br/> Registration ID Number for access into the venue and for accommodation booking.</p>
+
+        <hr />
+
+        <form action="">
+            <div class="flex-input">
+                <label for="membership">Are you a Saints Community Church Member <span>*</span></label>
+    
+                <select class="" name="membership" aria-placeholder="- Select -">
+                    <option value="">- Select -</option>
+                    <option value="">Member</option>
+                    <option value="">Non-Member</option>
+                </select>
+            </div>
+            
+            <div class="flex-input">
+                <div class="flex-input">
+                    <label for="church name">Please Enter Your Church Name <span>*</span></label>
+                    <input type="text" name="church name"  placeholder="Church Name">
+                </div>
+
+            <div class="parent-flex-input">
+                <div class="flex-input flex-div-col">
+                    <label for="first_name">First Name <span>*</span></label>
+                    <input type="text" name="first_name"  placeholder="First Name">
+                </div>
+    
+                <div class="flex-input flex-div-col">
+                    <label for="surname">Surname <span>*</span></label>
+                    <input type="text" name="surname" placeholder="Surname" required>
+                </div>
+            </div>
+
+            <div class="flex-input">
+                <label for="gender">Gender <span>*</span></label>
+
+                <select class="" name="gender">
+                    <option value="">- Select -</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+            </div>
+ 
+            <div  class= "parent-flex-input2">
+                <div class="flex-input flex-div-col2">
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+    
+                <div class="flex-input flex-div-col2">
+                    <label for="number">Mobile Number <span>*</span></label>
+                    <input type="number" name="number" placeholder="Mobile Number" required>
+                </div>    
+            </div>
+            
+            <div class="flex-input">
+                <label for="accommodation">Do you require private accommodation? <span>*</span></label>
+
+                <select class="" name="accommodation">
+                    <option value="">- Select -</option>
+                    <option value="">Yes</option>
+                    <option value="">No</option>
+                </select>
+            </div>
+
+
+
+            <button  id="submit" type="submit">Submit Registration</button>
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
